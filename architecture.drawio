@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.6.4">
   <diagram name="Page-1" id="ZpZ63O-1v2XmEa2b66Qz">
-    <mxGraphModel dx="2312" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2540" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,8 +29,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="WyX4kZVNguA1Jkcuc-uh-5" edge="1" parent="1" source="api" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="WyX4kZVNguA1Jkcuc-uh-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="api" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="API Service" vertex="1">
           <mxGeometry height="50" width="100" x="320" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="WyX4kZVNguA1Jkcuc-uh-2" edge="1" parent="1" source="rag" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="WyX4kZVNguA1Jkcuc-uh-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rag" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="PageIndex&#xa;RAG Service" vertex="1">
           <mxGeometry height="80" width="80" x="570" y="300" as="geometry" />
@@ -121,6 +131,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="WyX4kZVNguA1Jkcuc-uh-3" edge="1" parent="1" source="YNrWqpmHDu9__4JBsk__-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WyX4kZVNguA1Jkcuc-uh-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YNrWqpmHDu9__4JBsk__-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Parsing Service" vertex="1">
           <mxGeometry height="60" width="120" x="510" y="80" as="geometry" />
         </mxCell>
@@ -146,6 +159,19 @@
         </mxCell>
         <mxCell id="YNrWqpmHDu9__4JBsk__-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" value="" vertex="1">
           <mxGeometry height="10" width="50" x="-20" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="WyX4kZVNguA1Jkcuc-uh-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;RabbitMQ&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="100" x="570" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="WyX4kZVNguA1Jkcuc-uh-4" edge="1" parent="1" source="valid" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.1;entryY=0.94;entryDx=0;entryDy=0;entryPerimeter=0;" target="WyX4kZVNguA1Jkcuc-uh-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="313" />
+              <mxPoint x="570" y="313" />
+              <mxPoint x="570" y="260" />
+              <mxPoint x="580" y="260" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
